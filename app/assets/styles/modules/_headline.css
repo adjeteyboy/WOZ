@@ -1,0 +1,27 @@
+.headline {
+  margin: 0;
+  font-weight: 300;
+  color: $mainGreen;
+
+  &--tiny {
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: .25rem;
+    font-weight: 400;
+    
+    @media (min-width: 530px) {
+      font-size: 1.3875rem;
+    }
+  }
+
+  &--small-plus {
+    font-size: 1.6875rem;
+    margin-bottom: 1.9rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  & a {
+    color: $mainGreen;
+  }
+}

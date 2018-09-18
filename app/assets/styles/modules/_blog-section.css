@@ -1,0 +1,87 @@
+.blog-section {
+  background-color: $mainCream;
+  padding: 2rem 0;
+
+  @media(min-width: 530px) {
+    padding: 3.125rem 2.5rem;
+  }
+
+  &__grid {
+    display: grid;
+    grid-gap: 2.5em;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  &__column {
+    padding: 2rem;
+    background-color: rgba(245, 255, 250, 0.3);
+    border-radius: 5px;
+
+    @media(min-width: 530px) {
+      padding: 0;
+    }
+  }
+
+  &__photo {
+    padding: 0.8rem;
+
+    & img {
+      border-radius: 5px;
+    }
+  }
+
+  &__category {
+    color: #1dc3c3;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .1);
+    margin: 0 0 0.3125rem 0;
+    font-size: 0.9rem;
+
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+
+  &__text-margin {
+    margin: 0.5rem 1.2rem;
+    
+    @media (min-width: 530px) {
+      margin: 1.2rem;
+    }
+
+    & a {
+      background-color: #f4f3f3;
+      padding: 10px 20px;
+      border-radius: 2rem;
+      font-weight: bold;
+
+      &:hover {
+        border: 2px solid #b1cff3;
+      }
+    }
+  }
+
+  &__date {
+    font-size: 0.625rem;
+    font-weight: 800;
+    color: #1a4141;
+    margin: 0.3rem 0 1.2rem 0;
+
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+      font-weight: bolder;
+    }
+  }
+
+  &__title {
+    color: $mainGreen;
+    margin-bottom: 0;
+
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+
+}
