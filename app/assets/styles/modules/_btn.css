@@ -16,7 +16,34 @@
     background-color: $mainGreen;
   }
 
+  &--small {
+    padding: 6px 13px;
+    border-radius: 4px;
+    margin-right: 20px;
+    font-size: 0.88rem;
+    font-weight: 300;
+    
+    &-l-green {
+      background-color: #46fe7f;
+    }
+
+    &-l-grshade {
+      background-color: #50ec9d;
+    }
+  }
+
   &:hover {
     opacity: .75;
   }
 }
+
+/* .btn__small {
+  padding: 7px 13px;
+  border-radius: 4px;
+  margin-right: 20px;
+  font-size: 0.88rem;
+
+  &-l-green {
+    background-color: #46fe7f;
+  }
+} */

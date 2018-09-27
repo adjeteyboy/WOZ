@@ -54,3 +54,13 @@ a:hover {
 .container::after, .group::after {
   clear: both;
 }
+
+.search-trigger {
+  color: #fff;
+  cursor: pointer;
+  display: none;
+
+  @media(min-width: 960px) {
+    display: inline-block;
+  }
+}

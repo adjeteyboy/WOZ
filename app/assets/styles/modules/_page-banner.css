@@ -41,4 +41,29 @@
       font-size: 1.5rem
     }
   }
+
+  &__interior {
+    position: relative;
+    padding: 50px 0 18px 0;
+
+    @media (min-width: 530px) {
+      padding: 100px 0 28px 0;
+    }
+  }
+
+  &__img {
+    background-image: url(../../assets/images/trianglify.png);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &__content {
+    color: #fff;
+    position: relative;
+  }
 }
