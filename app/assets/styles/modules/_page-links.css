@@ -1,0 +1,39 @@
+.page-links {
+  position: relative;
+  background-color: $lightBeige;
+  z-index: 1;
+  margin: 0 0 40px 0;
+
+  @media(min-width: 767px) {
+    width: 300px;
+    float: right;
+    margin: 0 0 40px 20px;
+  }
+
+  &__active, & .current_page_item {
+    font-weight: bold;
+    background-color: #e8fea6;
+    border-left: 3px solid white;
+  }
+
+  &__title {
+    background-color: $mainGreen;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    font-weight: normal;
+
+    & a {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+
+  & li a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 17px 10px;
+    color: $mainGreen;
+  }
+}

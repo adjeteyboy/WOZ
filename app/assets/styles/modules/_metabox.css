@@ -1,0 +1,38 @@
+.metabox {
+  padding: 10px 13px;
+  background-color: $lightBeige;
+  display: inline-block;
+  margin-bottom: 30px;
+  padding: 0;
+  font-size: .9rem;
+  font-weight: normal;
+  border-radius: 3px;
+  box-shadow: 2px 2px 1px rgba(0,0,0, .4);
+
+  &-home-link {
+    text-decoration: none;
+    background-color: $mainGreen;
+    display: inline-block;
+    padding: 10px 13px;
+    color: #fff;
+    border-radius: 3px 0 0 3px;
+
+    &:hover {
+      background-color: #3c9256;
+    }
+  }
+
+  &__main {
+    padding: 10px 13px;
+  }
+
+  & p {
+    margin: 0;
+  }
+
+  &-push-up {
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%);    
+  }
+}

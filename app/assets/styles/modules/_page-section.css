@@ -1,0 +1,10 @@
+.page-section {
+  position: relative;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+
+  @media(min-width: 530px) {
+    padding-top: 3.6rem;
+    padding-bottom: 3.6rem;
+  }
+}

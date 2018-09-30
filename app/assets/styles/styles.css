@@ -9,4 +9,7 @@
 @import '/modules/_headline';
 @import '/modules/_btn';
 @import '/modules/_blog-section';
+@import '/modules/_page-section';
+@import '/modules/_metabox';
+@import '/modules/_page-links';
 @import '/modules/_site-footer';
