@@ -725,6 +725,15 @@ a:hover {
   font-weight: 300;
   color: #45b166;
 }
+.headline--medium {
+    font-size: 1.9rem;
+    margin-bottom: .75rem;
+  }
+@media(min-width: 530px) {
+.headline--medium {
+      font-size: 3.125rem
+  }
+    }
 .headline--tiny {
     font-size: 1.2rem;
     font-family: 'Roboto', sans-serif;
@@ -742,6 +751,13 @@ a:hover {
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
   }
+.headline--post-title a {
+    color: #45b166;
+    text-decoration: none;
+  }
+.headline--post-title a:hover {
+      text-decoration: underline;
+    }
 .headline a {
     color: #45b166;
   }
